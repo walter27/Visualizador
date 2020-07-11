@@ -1716,6 +1716,10 @@ SOFTWARE.
 primeng
 MIT
 
+primeng/api
+
+primeng/carousel
+
 primeng/dropdown
 
 primeng/multiselect
