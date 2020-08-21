@@ -1726,6 +1726,10 @@ primeng/dropdown
 
 primeng/multiselect
 
+primeng/paginator
+
+primeng/table
+
 punycode
 MIT
 Copyright Mathias Bynens <https://mathiasbynens.be/>
