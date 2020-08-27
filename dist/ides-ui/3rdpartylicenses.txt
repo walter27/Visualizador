@@ -1722,6 +1722,8 @@ primeng/button
 
 primeng/carousel
 
+primeng/dialog
+
 primeng/dropdown
 
 primeng/multiselect
