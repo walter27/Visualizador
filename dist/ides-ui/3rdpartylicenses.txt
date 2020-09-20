@@ -1729,6 +1729,10 @@ primeng/dialog
 
 primeng/dropdown
 
+primeng/galleria
+
+primeng/inputnumber
+
 primeng/multiselect
 
 primeng/paginator
