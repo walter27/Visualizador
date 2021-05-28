@@ -3,11 +3,11 @@ const path = require('path');
 
 const app = express();
 
-app.use(express.static(__dirname + '/dist/ides-ui'));
+app.use(express.static(__dirname + '/dist/efx-app-web-marketplace'));
 
 app.get('/*', function(req, res) {
 
-    res.sendFile(path.join(__dirname + '/dist/ide-iu/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/efx-app-web-marketplace/index.html'));
 });
 
 app.listen(process.env.PORT || 3000);

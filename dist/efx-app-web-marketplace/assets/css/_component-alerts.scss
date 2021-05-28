@@ -1,0 +1,146 @@
+//alerts
+.component_alert {
+    color: $color-signal-steel;
+    font-family: Open Sans;
+    font-size: $font-size-14;
+    text-decoration: none solid $color-signal-steel;
+    margin-bottom: $spacing-06;
+  
+    .error_icon {
+      margin-right: $spacing-05;
+      i {
+        font-size: $font-size-20;
+      }
+    }
+  
+    .close_icon {
+      margin-left: $spacing-05;
+      i {
+        font-size: $font-size-24;
+      }
+    }
+   
+    a {
+      color: $color-efx-accent-blue;
+      text-decoration: none solid $color-efx-accent-blue;
+      font-size: $font-size-14;
+      padding-right: $spacing-01;
+      :hover {
+        color: $color-efx-accent-blue;
+      }
+    }
+  
+    &.primary {
+      background-color: $color-efx-light-gray;
+     font-weight: $font-weight-600;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+    }
+    &.secondary {
+      background-color: $color-efx-web-yellow;
+     font-weight: $font-weight-600;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+    }
+  }
+  
+  
+  .component_alert_secondary {
+    margin-bottom: $layout-04;
+    .col-sm-1 {
+      flex: 0 !important;
+    }
+    .col-sm-4 {
+      flex: 0 0 31.33% !important;
+    }
+    .component_alert_icon_blue {
+      color: $color-signal-white;
+      font-family: Open Sans;
+      font-size: $font-size-14;
+      text-decoration: none solid $color-signal-steel;
+      margin-bottom: $spacing-06;
+      background-color: $color-blue-accent;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+    }
+  
+    .component_alert_icon_green {
+      color: $color-signal-steel;
+      font-family: Open Sans;
+      font-size: $font-size-14;
+      text-decoration: none solid $color-signal-steel;
+      margin-bottom: $spacing-06;
+      background-color: $color-efx-alert-green;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+    }
+  
+    .component_alert_icon_yellow {
+      color: $color-signal-steel;
+      font-family: Open Sans;
+      font-size: $font-size-14;
+      text-decoration: none solid $color-signal-steel;
+      margin-bottom: $spacing-06;
+      background-color: $color-efx-web-yellow;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+    }
+  
+    .component_alert_icon_red {
+      color: $color-signal-white;
+      font-family: Open Sans;
+      font-size: $font-size-14;
+      text-decoration: none solid $color-signal-steel;
+      margin-bottom: $spacing-06;
+      background-color: $color-efx-alert-red;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+    }
+  
+    .component_alert_icon_sub_blue {
+      color: $color-signal-white;
+      font-family: Open Sans;
+      font-size: $font-size-14;
+      text-decoration: none solid $color-signal-steel;
+      background-color: $color-blue-accent;
+      padding: $spacing-04 $spacing-06 $spacing-05 $spacing-05;
+      margin-left: $spacing-04;
+      width: $layout-05 !important;
+    }
+  
+    .component_alert_text {
+      color: $color-signal-steel;
+      font-family: Open Sans;
+      font-size: $font-size-14;
+      text-decoration: none solid $color-signal-steel;
+      margin-bottom: $spacing-06;
+      background-color: $color-efx-light-gray;
+     font-weight: $font-weight-600;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+      margin-left: -$spacing-01;
+    }
+  
+    .component_alert_header {
+      font-family: Open Sans;
+      text-decoration: none solid $color-signal-steel;
+      background-color: $color-efx-light-gray;
+      padding: $spacing-05 $spacing-05 $spacing-05 $spacing-05;
+      margin-left: -$spacing-01;
+      .component_alert_message {
+        font-weight: $font-weight-700;
+        font-size: $font-size-14;
+        margin-bottom: $spacing-04;
+        color: $color-signal-steel;
+      }
+      .component_alert_subText {
+        font-size: $font-size-12;
+        line-height: $line-height-24;
+        margin-top: $spacing-04;
+        color: $color-signal-steel;
+      }
+      .component_alert_link {
+        margin-top: $spacing-04;
+        a {
+          font-family: Open Sans;
+         font-weight: $font-weight-600;
+          font-size: $font-size-12;
+          color: $color-efx-accent-blue !important;
+          text-decoration: none solid $color-efx-accent-blue !important;
+        }
+      }
+    }
+  }

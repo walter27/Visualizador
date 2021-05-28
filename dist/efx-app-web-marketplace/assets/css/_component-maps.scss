@@ -1,0 +1,22 @@
+//map-component
+.component-maps {
+  .mapouter {
+    position:relative;
+    text-align:right;
+    height:428px;
+    width: 100%;
+    box-shadow: 0 $spacing-02 $spacing-02 -$spacing-02 $color-callout-border;
+  }
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:428px;
+    width: 100%;
+  }
+}
+
+.component-video {
+  iframe {
+    background-color: $color-signal-black;
+  }
+}

@@ -1,0 +1,14 @@
+//dropdown-component
+.component-dropdown {
+  .v-select.v-select--chips:not(.v-text-field--single-line).v-text-field--enclosed .v-select__selections {
+    min-height: $line-height-48 !important;
+  }
+  .theme--light.v-list {
+    color: $color-signal-black;
+    margin-top: $layout-04;
+  }
+  .v-application .primary--text {
+    color: $color-signal-steel !important; 
+    caret-color: $color-signal-steel !important; 
+  }
+}

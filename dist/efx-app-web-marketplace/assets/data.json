@@ -1,0 +1,248 @@
+[{
+        "id": 8688,
+        "title": "ALERTAS CLIENTES CONSULTADOS",
+        "nombreArchivo": "",
+        "datosEnviados": 0,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 0,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "21/01/2010 09:51:02",
+        "fecha_entrega": "21/04/2010 09:51:02",
+        "enlace_sftp": "",
+        "idproducto": 690,
+        "estado": {
+            "id": 1733,
+            "estado": "Solicitado"
+        }
+    },
+    {
+        "id": 9332,
+        "title": "ESTUDIOsss",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 691,
+        "estado": {
+            "id": 1738,
+            "estado": "Entregado"
+        }
+    },
+
+    {
+        "id": 9343,
+        "title": "Fecha no Aceptada Proceso",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 692,
+        "estado": {
+            "id": 1738,
+            "estado": "Fecha no Aceptada Proceso"
+        }
+    },
+    {
+        "id": 9344,
+        "title": "Entregado",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 693,
+        "estado": {
+            "id": 1738,
+            "estado": "Entregado"
+        }
+    },
+    {
+        "id": 9345,
+        "title": "Pendiente Proceso",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 673,
+        "estado": {
+            "id": 1738,
+            "estado": "Pendiente Proceso"
+        }
+    },
+    {
+        "id": 9356,
+        "title": "Por Confirmar",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 674,
+        "estado": {
+            "id": 1738,
+            "estado": "Por Confirmar"
+        }
+    },
+    {
+        "id": 9347,
+        "title": "Pre Aprobado",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 675,
+        "estado": {
+            "id": 1738,
+            "estado": "Pre Aprobado"
+        }
+    },
+    {
+        "id": 9348,
+        "title": "Pre Facturar",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 676,
+        "estado": {
+            "id": 1738,
+            "estado": "Pre Facturar"
+        }
+    },
+    {
+        "id": 9349,
+        "title": "Facturar",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 677,
+        "estado": {
+            "id": 1738,
+            "estado": "Facturar"
+        }
+    },
+    {
+        "id": 9350,
+        "title": "Observado - Por Aprobar",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 678,
+        "estado": {
+            "id": 1738,
+            "estado": "Observado - Por Aprobar"
+        }
+    },
+    {
+        "id": 9351,
+        "title": "Observado - Por Facturar",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2500,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2022 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 679,
+        "estado": {
+            "id": 1738,
+            "estado": "Observado - Por Facturar"
+        }
+    },
+    {
+        "id": 9341,
+        "title": "En Proceso",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 680,
+        "estado": {
+            "id": 1738,
+            "estado": "En Proceso"
+        }
+    }, {
+        "id": 9342,
+        "title": "Hola",
+        "nombreArchivo": "loquesea.txt",
+        "datosEnviados": 2134,
+        "datosSensibles": 0,
+        "datosDuplicados": 0,
+        "datosInvalidos": 1000,
+        "datosProcesados": 0,
+        "datosValidos": 0,
+        "fecha_envio": "06/01/2020 13:16:32",
+        "fecha_entrega": "06/01/2020 13:18:38",
+        "enlace_sftp": "",
+        "idproducto": 681,
+        "estado": {
+            "id": 1738,
+            "estado": "hola"
+        }
+    }
+]

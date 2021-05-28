@@ -1,0 +1,51 @@
+//input-component
+.components-input {
+  .control-label {
+    font-family: Open Sans;
+    font-size: $font-size-16;
+    font-weight: $font-weight-700;
+    color: $color-signal-steel;
+    text-decoration: none solid $color-signal-steel;
+    line-height: $line-height-32;
+    text-align: center;
+    margin-bottom: $spacing-02;
+  }
+  .info_icon {
+    color: $color-signal-steel;
+    margin-left: $spacing-03;
+  }
+  .control-input {
+    position: relative;
+    .form-control {
+      border: $spacing-001 solid $color-signal-steel;
+      height: $line-height-48;
+    }
+    .fa-lock, .fa-calendar-alt {
+    position: absolute;
+    top: $spacing-04;
+    left: 92%;
+    color: $color-efx-gray;
+    }
+  }
+  .control-input-error{
+    position: relative;
+    .form-control {
+      border: $spacing-001 solid $color-signal-red;
+      height: $line-height-48;
+      border-left: $spacing-02 solid $color-signal-red;
+    }
+    .support-text {
+      font-family: Open Sans;
+      font-size: $font-size-12;
+      color: $color-signal-red;
+      text-decoration: none solid $color-signal-red;
+      line-height: $line-height-40;
+    }
+    .fa-lock {
+    position: absolute;
+    top: $spacing-04;
+    left: 92%;
+    color: $color-efx-gray;
+    }
+  }
+}

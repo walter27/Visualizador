@@ -1,0 +1,694 @@
+.component-button {
+    .orange-button {
+        .large-button {
+            background-color: $color-efx-accent-orange;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-accent-orange;
+            }
+        }
+        .medium-button {
+            background-color: $color-efx-accent-orange;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-smaller;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-color: $color-efx-accent-orange;
+            &:hover {
+                background-color: $color-efx-accent-orange;
+            }
+        }
+        .small-button {
+            background-color: $color-efx-accent-orange;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-14;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-color: $color-efx-accent-orange;
+            &:hover {
+                background-color: $color-efx-accent-orange;
+            }
+        }
+        .small-link-button {
+            background-color: $color-signal-white;
+            color: $color-efx-accent-orange;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-accent-orange;
+                color: $color-efx-accent-orange;
+            }
+        }
+    }
+    .red-button {
+        .large-button {
+            background-color: $color-efx-accent-red;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-accent-red;
+            }
+        }
+        .medium-button {
+            background-color: $color-efx-accent-red;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-smaller;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-color: $color-efx-accent-red;
+            &:hover {
+                background-color: $color-efx-accent-red;
+            }
+        }
+        .small-button {
+            background-color: $color-efx-accent-red;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-14;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-color: $color-efx-accent-red;
+            &:hover {
+                background-color: $color-efx-accent-red;
+            }
+        }
+        .small-link-button {
+            background-color: $color-signal-white;
+            color: $color-efx-accent-orange;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-accent-red;
+                color: $color-efx-accent-red;
+            }
+        }
+    }
+    .blue-button {
+        .large-button {
+            background-color: $color-blue-accent;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-accent-blue;
+            }
+        }
+        .medium-button {
+            background-color: $color-blue-accent;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-accent-blue;
+            }
+        }
+        .small-button {
+            background-color: $color-blue-accent;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-accent-blue;
+            }
+        }
+        .small-link-button {
+            background-color: $color-signal-white;
+            color: $color-blue-accent;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-accent-blue;
+                color: $color-efx-accent-blue;
+            }
+        }
+    }
+    .light-button {
+        .large-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            ;
+            &:hover {
+                background-color: $color-efx-light-gray;
+            }
+        }
+        .medium-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            ;
+            &:hover {
+                background-color: $color-efx-light-gray;
+            }
+        }
+        .small-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-14;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-light-gray;
+            }
+        }
+        .small-link-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-light-gray;
+                color: $color-efx-light-gray;
+            }
+        }
+    }
+    .dark-button {
+        .large-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-signal-black;
+            }
+        }
+        .medium-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-signal-black;
+            }
+        }
+        .small-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-32;
+            border-radius: $spacing-01;
+            font-size: $font-size-14;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-signal-black;
+            }
+        }
+        .small-link-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-signal-black;
+                color: $color-signal-black;
+            }
+        }
+    }
+    .disabled-button {
+        .large-button {
+            background-color: $color-efx-gray;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-gray;
+            }
+        }
+        .medium-button {
+            background-color: $color-efx-gray;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-gray;
+            }
+        }
+        .small-button {
+            background-color: $color-efx-gray;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                background-color: $color-efx-gray;
+            }
+        }
+        .small-link-button {
+            background-color: $color-signal-white;
+            color: $color-efx-gray;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-gray;
+                color: $color-efx-gray;
+            }
+        }
+    }
+    .orange-button {
+        .large-pill-button {
+            background-color: $color-efx-accent-orange;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-accent-orange;
+            }
+        }
+        .medium-pill-button {
+            background-color: $color-efx-accent-orange;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-accent-orange;
+            }
+        }
+        .small-pill-button {
+            background-color: $color-efx-accent-orange;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-accent-orange;
+            }
+        }
+        .small-link-pill-button {
+            background-color: $color-signal-white;
+            color: $color-efx-accent-orange;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-accent-orange;
+                color: $color-efx-accent-orange;
+            }
+        }
+    }
+    .blue-button {
+        .large-pill-button {
+            background-color: $color-blue-accent;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-accent-blue;
+            }
+        }
+        .medium-pill-button {
+            background-color: $color-blue-accent;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-accent-blue;
+            }
+        }
+        .small-pill-button {
+            background-color: $color-blue-accent;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-accent-blue;
+            }
+        }
+        .small-link-pill-button {
+            background-color: $color-signal-white;
+            color: $color-blue-accent;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-accent-blue;
+                color: $color-efx-accent-blue;
+            }
+        }
+    }
+    .light-button {
+        .large-pill-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-light-gray;
+            }
+        }
+        .medium-pill-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-light-gray;
+            }
+        }
+        .small-pill-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-light-gray;
+            }
+        }
+        .small-link-pill-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-light-gray;
+                color: $color-efx-light-gray;
+            }
+        }
+    }
+    .dark-button {
+        .large-pill-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-signal-black;
+            }
+        }
+        .medium-pill-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-signal-black;
+            }
+        }
+        .small-pill-button {
+            background-color: $color-signal-steel;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-signal-black;
+            }
+        }
+        .small-link-pill-button {
+            background-color: $color-signal-white;
+            color: $color-signal-steel;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-signal-black;
+                color: $color-signal-black;
+            }
+        }
+    }
+    .disabled-button {
+        .large-pill-button {
+            background-color: $color-efx-gray;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-10;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-gray;
+            }
+        }
+        .medium-pill-button {
+            background-color: $color-efx-gray;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $layout-09;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-gray;
+            }
+        }
+        .small-pill-button {
+            background-color: $color-efx-gray;
+            color: $color-signal-white;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            width: $spacing-14;
+            height: $line-height-48;
+            border-radius: $spacing-01;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            border-radius: $spacing-06;
+            &:hover {
+                background-color: $color-efx-gray;
+            }
+        }
+        .small-link-pill-button {
+            background-color: $color-signal-white;
+            color: $color-efx-gray;
+            display: $display-block !important;
+            margin-bottom: $spacing-05 !important;
+            font-family: Open Sans;
+            font-size: $font-size-20;
+            font-weight: $font-weight-700;
+            margin: 0 auto;
+            &:hover {
+                border-bottom: $spacing-01 solid $color-efx-gray;
+                color: $color-efx-gray;
+            }
+        }
+    }
+}

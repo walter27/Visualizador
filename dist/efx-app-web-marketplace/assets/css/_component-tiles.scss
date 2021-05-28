@@ -1,0 +1,47 @@
+.tile_separator {
+  width: 663px;
+  border-bottom: $spacing-002 solid $color-signal-steel;
+  margin-bottom: $line-height-48;
+  .tile_content {
+    font-family: Open Sans;
+    font-size: $font-size-16;
+    color: $color-signal-steel;
+    text-decoration: none solid $color-signal-steel;
+    line-height: $line-height-32;
+    margin-bottom: $spacing-04;
+  }
+
+  .tile_container{
+    font-family: Open Sans;
+    font-size: $font-size-16;
+    color: $color-signal-steel;
+    text-decoration: none solid $color-signal-steel;
+    line-height: $line-height-32;
+    margin-bottom: $spacing-04;
+    .tile_button {
+      width: $layout-06;
+      padding: $spacing-02 $spacing-06 $spacing-02 $spacing-06;
+      background-color: $color-signal-black;
+      font-family: Open Sans;
+      font-size: $font-size-12;
+      color: $color-signal-white;
+      text-decoration: none solid white;
+      line-height: $line-height-32;
+      border-radius: $spacing-01;
+      margin-right: $layout-00;
+    }
+    .tile_header {
+      font-family: Open Sans;
+      font-size: $font-size-24;
+      color: $color-signal-steel;
+      text-decoration: none solid $color-signal-steel;
+      line-height: $line-height-14;
+     font-weight: $font-weight-bold;
+      vertical-align: middle;
+    }
+  }
+}
+
+.no_separator {
+  border-bottom: none !important;
+}

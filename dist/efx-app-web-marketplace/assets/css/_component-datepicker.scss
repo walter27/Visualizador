@@ -1,0 +1,25 @@
+.components-input {
+    .control-label {
+	  font-family: $font-stack;
+	  font-size: $font-size-16;
+	  font-weight: $font-weight-700;
+	  color: $color-signal-steel;
+	  text-decoration: none solid $color-signal-steel;
+	  line-height: $line-height-32;
+	  text-align: center;
+	  margin-bottom: $spacing-02; 
+	}
+	.control-input {
+      position: relative;
+	  .form-control {
+	    border: 1px solid $color-efx-dark;
+        height: $line-height-48;
+	  }
+	  .fa-lock, .fa-calendar-alt {
+	    position: absolute;
+		top: $layout-01;
+		left: 92%;
+		color: $color-efx-gray;
+	  }
+	}
+}

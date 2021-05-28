@@ -1,0 +1,115 @@
+.component-step_progress {
+  ul li::before {
+    content: "\2022";
+    color: $color-blue-accent;
+    font-weight: $font-weight-700;
+    display: $display-inline-block;
+    margin-left: initial !important;
+    position: initial !important;
+    font-size: initial !important;
+}
+  .step-progressbar {
+    list-style: none !important;
+    counter-reset: step !important;
+    display: $display-flex !important;
+    padding: 0 !important;
+
+    &__item {
+      display: $display-flex !important;
+      flex-direction: column !important;
+      flex: 1 !important;
+      text-align: center !important;
+      position: relative !important;
+
+      &:before {
+        width: 2em !important;
+        height: 2em !important;
+        content: counter(step) !important;
+        counter-increment: step !important;
+        align-self: center !important;
+        background: $color-efx-alert-green !important;
+        color: $color-signal-white !important;
+        border-radius: 100% !important;
+        line-height: 2em !important;
+        margin-bottom: 0.5em !important;
+      }
+
+      &:after {
+        height: $spacing-002 !important;
+        width: calc(100% - 4em) !important;
+        content: '' !important;
+        background: $color-efx-light-gray !important;
+        position: absolute !important;
+        top: 1.5em !important;
+        left: calc(50% + 2em) !important;
+      }
+
+      &:last-child {
+        &:after {
+          content: none !important;
+        }
+      }
+
+      &--active {
+        &:before {
+          background: $color-signal-black !important;
+        }
+      }
+
+      &--complete {
+        &:before {
+          content: '✔' !important; 
+        }
+      }
+    }
+
+    &__item_three {
+      display: $display-flex !important;
+      flex-direction: column !important;
+      flex: 1 !important;
+      text-align: center !important;
+      position: relative !important;
+
+      &:before {
+        width: 2em !important;
+        height: 2em !important;
+        content: counter(step) !important;
+        counter-increment: step !important;
+        align-self: center !important;
+        border: $spacing-002 solid $color-efx-gray;
+        color: $color-signal-white !important;
+        border-radius: 100% !important;
+        line-height: 2em !important;
+        margin-bottom: 0.5em !important;
+      }
+
+      &:after {
+        height: $spacing-002 !important;
+        width: calc(100% - 4em) !important;
+        content: '' !important;
+        background: $color-efx-light-gray !important;
+        position: absolute !important;
+        top: 1.5em !important;
+        left: calc(50% + 2em) !important;
+      }
+
+      &:last-child {
+        &:after {
+          content: none !important;
+        }
+      }
+
+      &--active {
+        &:before {
+          background: $color-signal-black !important;
+        }
+      }
+
+      &--complete {
+        &:before {
+          content: '✔' !important; 
+        }
+      }
+    }
+  }
+}

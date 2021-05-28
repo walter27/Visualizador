@@ -1,0 +1,74 @@
+//switch-component
+.component-switch {
+  .switch_spec {
+    margin-bottom: $spacing-06;
+  }
+  .switch {
+    position: relative;
+    display: $display-inline-block;
+    width: $spacing-09;
+    height: $spacing-06;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: initial;
+  }
+
+  .switch_label {
+    padding-left: $spacing-04;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $color-efx-pale-gray;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: $spacing-05;
+    width: $spacing-05;
+    left:  $spacing-03 !important;
+    bottom: $spacing-01;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: $color-efx-alert-green;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 $spacing-001 $color-efx-alert-green;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX($spacing-05);
+    -ms-transform: translateX($spacing-05);
+    transform: translateX($spacing-05);
+    left: $spacing-03 !important;
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: $spacing-06;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+    left: $spacing-01 !important;
+  }
+}

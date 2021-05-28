@@ -1,0 +1,42 @@
+.signal {
+    .sidebar-page {
+        #content {
+            .breadcrumb {
+                background: transparent;
+                .breadcrumb-item {
+                    font-size: .75rem;
+                    color: #2e2c2c;
+                    .active {
+                        font-weight: $font-weight-700;
+                    }
+                }
+                .breadcrumb-header {
+                    font-size: $font-size-16;
+                    font-weight: $font-weight-600;
+                }
+                .breadcrumb-item+.breadcrumb-item::before {
+                    content: ">";
+                    color: $color-signal-red;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+.breadcrumb-item.active {
+    font-weight: $font-weight-700;
+}
+
+.breadcrumb-item.active::before {
+    font-weight: inherit;
+}
+
+.breadcrumb {
+    padding-left: 0;
+    margin-bottom: 0px !important;
+}
+
+.daves {
+    background: blue
+}
