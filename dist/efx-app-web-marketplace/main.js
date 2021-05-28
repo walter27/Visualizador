@@ -934,7 +934,7 @@ class InterceptorService {
             return next.handle(reqClone).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(this.error));
         }
         else {
-            const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]({ 'Authorization': `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5NDIyNTMiLCJ1c2VyRXhwaXJlZCI6ImZhbHNlIiwiZXhwIjoxNjIyMjQ5MDcyLCJhdXRob3JpdGllcyI6WyJBRE1JTiJdLCJqdGkiOiI5OTQ1YTg5YS0yZDM4LTQ5YWYtODFkZi02OGVhNDBmMjE2ZDIiLCJjbGllbnRfaWQiOiIkMmEkMTAkOVFVcmVLcVFiWFY4c1JGR05FVnBKLmdZYXNpQXpjcldhRndYMEVTV0NBL0RidEJSR05iZW0ifQ.F7-vnGwDGEddCoja7y9f3DyXLYgOwy7CbINvSouCuCE` });
+            const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_0__["HttpHeaders"]({ 'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5NDIyNTMiLCJ1c2VyRXhwaXJlZCI6ImZhbHNlIiwiZXhwIjoxNjIyMjQ5MDcyLCJhdXRob3JpdGllcyI6WyJBRE1JTiJdLCJqdGkiOiI5OTQ1YTg5YS0yZDM4LTQ5YWYtODFkZi02OGVhNDBmMjE2ZDIiLCJjbGllbnRfaWQiOiIkMmEkMTAkOVFVcmVLcVFiWFY4c1JGR05FVnBKLmdZYXNpQXpjcldhRndYMEVTV0NBL0RidEJSR05iZW0ifQ.F7-vnGwDGEddCoja7y9f3DyXLYgOwy7CbINvSouCuCE` });
             const reqClone = req.clone({ headers });
             return next.handle(reqClone).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(this.error));
         }
