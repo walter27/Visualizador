@@ -1,0 +1,27 @@
+[{
+        "firstProvince": "Azuay",
+        "secondProvince": "Quito",
+        "value": 6
+    },
+    {
+        "firstProvince": "Azuay",
+        "secondProvince": "Guayaquil",
+        "value": 4
+    }, {
+        "firstProvince": "Azuay",
+        "secondProvince": "Manabí",
+        "value": 7
+    }, {
+        "firstProvince": "Quito",
+        "secondProvince": "Cañar",
+        "value": 8
+    }, {
+        "firstProvince": "Quito",
+        "secondProvince": "Esmeraldas",
+        "value": 10
+    }, {
+        "firstProvince": "Quito",
+        "secondProvince": "Bolívar",
+        "value": 10
+    }
+]
