@@ -30,41 +30,28 @@ getData().then(([provincias, data]) => {
             mapNavigation: {
                 enabled: true,
                 buttonOptions: {
-                    verticalAlign: 'bottom'
+                    verticalAlign: 'top'
                 }
             },
 
             colorAxis: {
-                tickPixelInterval: 100
+                tickPixelInterval: 50
             },
 
             exporting: {
-
-                buttons: {
-                    contextButton: {
-                        enabled: true,
-                        menuItems: [{
-                                text: 'Descargar PNG',
-                                onclick() { this.exportChart({ type: 'image/png' }); }
-                            },
-                            {
-                                text: 'Descargar JPEG',
-                                onclick() { this.exportChart({ type: 'image/jpeg' }); }
-                            },
-                            {
-                                text: 'Descargar PDF',
-                                onclick() { this.exportChart({ type: 'application/pdf' }); }
-                            }
-                        ]
-                    }
-                },
+                enabled: false
             },
 
+            tooltip: {
+                headerFormat: '<span style="font-size:10px">Data</span><br/>',
+                pointFormat: `<span style="color:{point.color}">●</span> {point.properties.dpa_despro}: <b>{point.value}</b><br/>`,
+
+            },
             series: [{
                 data: chartData,
                 keys: ['objectid', 'value'],
                 joinBy: 'objectid',
-                name: 'Ecuador',
+                name: 'Data',
                 states: {
                     hover: {
                         color: '#a4edba'
@@ -72,7 +59,7 @@ getData().then(([provincias, data]) => {
                 },
                 dataLabels: {
                     enabled: true,
-                    format: '{point.properties.name}'
+                    format: '{point.properties.dpa_despro}'
                 }
             }]
         })
