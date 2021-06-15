@@ -5,26 +5,56 @@ const app = express();
 
 app.use(express.static(__dirname + '/grupofaro'));
 
-app.get('/column', function(req, res) {
-    res.sendFile(path.join(__dirname + '/grupofaro/public/column/index.html'));
+//COLUMN SERVICES
+app.get('/column/primera/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/column/primera_vuelta/twitter/index.html'));
+});
+app.get('/column/primera/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/column/primera_vuelta/instagram/index.html'));
+});
+app.get('/column/segunda/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/column/segunda_vuelta/twitter/index.html'));
+});
+app.get('/column/segunda/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/column/segunda_vuelta/instagram/index.html'));
 });
 
-app.get('/line', function(req, res) {
-    res.sendFile(path.join(__dirname + '/grupofaro/public/line/index.html'));
+//HEATMAP SERVICES
+app.get('/heatmap/primera/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/heatmap/primera_vuelta/twitter/index.html'));
+});
+app.get('/heatmap/primera/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/heatmap/primera_vuelta/instagram/index.html'));
+});
+app.get('/heatmap/segunda/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/heatmap/segunda_vuelta/twitter/index.html'));
+});
+app.get('/heatmap/segunda/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/heatmap/segunda_vuelta/instagram/index.html'));
 });
 
-app.get('/sankey', function(req, res) {
-    res.sendFile(path.join(__dirname + '/grupofaro/public/sankey/index.html'));
+//SCATTER SERVICES
+app.get('/scatter/primera/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/scatter/primera_vuelta/twitter/index.html'));
+});
+app.get('/scatter/primera/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/scatter/primera_vuelta/instagram/index.html'));
 });
 
-app.get('/streamgraph', function(req, res) {
-    res.sendFile(path.join(__dirname + '/grupofaro/public/streamgraph/index.html'));
+//STACKED SERVICES
+app.get('/stacked/primera/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/stacked/primera_vuelta/twitter/index.html'));
 });
-
-app.get('/map', function(req, res) {
-    res.sendFile(path.join(__dirname + '/grupofaro/public/map/index.html'));
+app.get('/stacked/primera/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/stacked/primera_vuelta/instagram/index.html'));
+});
+app.get('/stacked/segunda/twitter', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/stacked/segunda_vuelta/twitter/index.html'));
+});
+app.get('/stacked/segunda/instagram', function(req, res) {
+    res.sendFile(path.join(__dirname + '/grupofaro/public/stacked/segunda_vuelta/instagram/index.html'));
 });
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("Server run in port", process.env.PORT || 3000);
+    console.log("Server run in port ", process.env.PORT || 3000);
 });

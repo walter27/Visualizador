@@ -1,0 +1,62 @@
+[{
+        "name": "Alianza CREO-PSC",
+        "color": "rgba(31,120,180)",
+        "data": [[789,526546]]
+    },{
+        "name": "Izquierda Democratica",
+        "color": "rgba(166,206,227)",
+        "data": [[679,118366]]
+    },{
+        "name": "Alianza UNES",
+        "color": "rgba(255,127,0)",
+        "data": [[541,719413]]
+    },{
+        "name": "Partido Avanza",
+        "color": "rgba(178,223,138)",
+        "data": [[491,99010]]
+    },{
+        "name": "Movimiento Pachakutik",
+        "color": "rgba(51,160,44)",
+        "data": [[427,38182]]
+    },{
+        "name": "Movimiento Ecuatoriano Unido",
+        "color": "rgba(251,154,153)",
+        "data": [[375,12132]]
+    },{
+        "name": "Alianza Pais",
+        "color": "rgba(227,26,28)",
+        "data": [[372,22981]]
+    },{
+        "name": "Movimiento Democracia SI",
+        "color": "rgba(253,191,111)",
+        "data": [[289,9830]]
+    },{
+        "name": "Alianza Honestidad",
+        "color": "rgba(202,178,214)",
+        "data": [[215,19437]]
+    },{
+        "name": "Fuerza EC",
+        "color": "rgba(106,61,154)",
+        "data": [[172,2327]]
+    },{
+        "name": "Suma",
+        "color": "rgba(255,255,153)",
+        "data": [[150,18120]]
+    },{
+        "name": "Partido Sociedad Patriotica",
+        "color": "rgba(177,89,40)",
+        "data": [[123,8171]]
+    },{
+        "name": "Movimiento Construye",
+        "color": "rgba(166,206,227)",
+        "data": [[64,1843]]
+    },{
+        "name": "Union Ecuatoriana",
+        "color": "rgba(178,223,138)",
+        "data": [[23,17]]
+    },{
+        "name": "Movimiento Amigo",
+        "color": "rgba(51,160,44)",
+        "data": [[14,3100]]
+    }
+]
