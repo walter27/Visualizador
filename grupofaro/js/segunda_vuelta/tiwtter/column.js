@@ -21,15 +21,21 @@ getData().then(([categories, data]) => {
                 type: 'bar'
             },
             title: {
-                text: 'Gasto estimado en Twitter, segunda vuelta'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)'
+            },
+            subtitle: {
+                text: 'Gasto estimado electoral por partido político en Twitter'
             },
             xAxis: {
-                categories: chartCategories
+                categories: chartCategories,
+                title: {
+                    text: 'Partido político'
+                }
             },
             yAxis: {
                 min: 0,
                 title: {
-                    text: ''
+                    text: 'Gasto estimado ($)'
                 }
             },
             legend: {
@@ -38,6 +44,17 @@ getData().then(([categories, data]) => {
             plotOptions: {
                 series: {
                     stacking: 'normal'
+                }
+            },
+
+            tooltip: {
+                formatter: function() {
+                    return '<b>' + this.point.category + '</b> <br><b>' +
+                        this.point.series.name + ' ' + new Intl.NumberFormat('en-US', {
+                            style: 'currency',
+                            currency: 'USD',
+                            minimumFractionDigits: 0
+                        }).format(this.point.y) + '</b>';
                 }
             },
             exporting: {

@@ -1,5 +1,5 @@
 [
 
-    { "xAxis": "Número de posts en Instagram, primera vuelta" },
-    { "yAxis": "Gasto estimado" }
+    { "xAxis": "Número estimado de post pautados" },
+    { "yAxis": "Gasto estimado ($)" }
 ]

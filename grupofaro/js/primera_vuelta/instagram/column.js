@@ -21,19 +21,35 @@ getData().then(([categories, data]) => {
                 type: 'bar'
             },
             title: {
-                text: 'Gasto estimado en Instagram, primera vuelta'
+                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+            },
+            subtitle: {
+                text: 'Gasto estimado electoral por partido político en Instagram  '
             },
             xAxis: {
-                categories: chartCategories
+                categories: chartCategories,
+                title: {
+                    text: 'Partido político'
+                }
             },
             yAxis: {
                 min: 0,
                 title: {
-                    text: ''
+                    text: 'Gasto estimado ($)'
                 }
             },
             legend: {
                 enabled: false
+            },
+            tooltip: {
+                formatter: function() {
+                    return '<b>' + this.point.category + '</b> <br><b>' +
+                        this.point.series.name + ' ' + new Intl.NumberFormat('en-US', {
+                            style: 'currency',
+                            currency: 'USD',
+                            minimumFractionDigits: 0
+                        }).format(this.point.y) + '</b>';
+                }
             },
             plotOptions: {
                 series: {

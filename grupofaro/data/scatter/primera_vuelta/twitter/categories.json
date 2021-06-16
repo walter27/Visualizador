@@ -1,5 +1,5 @@
 [
 
-    { "xAxis": "Número de posts en Twitter, primera vuelta" },
-    { "yAxis": "Gasto estimado" }
+    { "xAxis": "Número estimado de posts pautados" },
+    { "yAxis": "Gasto estimado ($)" }
 ]

@@ -9,6 +9,8 @@ async function getData() {
 }
 
 function getPointCategoryName(point, dimension) {
+
+    console.log(point);
     var series = point.series,
         isY = dimension === 'y',
         axis = series[isY ? 'yAxis' : 'xAxis'];
@@ -30,17 +32,24 @@ getData().then(([categories, data]) => {
 
 
             title: {
-                text: 'Posts semanales en Instagram, primera vuelta'
+                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+            },
+            subtitle: {
+                text: 'Calendario semanal del número estimado de post pautados de todos los partidos políticos en Instagram'
             },
 
             xAxis: {
-                categories: categories[0].x_categories
+                categories: categories[0].x_categories,
+                title: {
+                    text: 'Fecha'
+                }
             },
 
             yAxis: {
                 categories: categories[1].y_categories,
-                title: null,
-                reversed: true
+                title: {
+                    text: 'Día de la semana'
+                }
             },
 
             accessibility: {
@@ -57,8 +66,8 @@ getData().then(([categories, data]) => {
 
             colorAxis: {
                 min: 0,
-                minColor: '#FFFFFF',
-                maxColor: Highcharts.getOptions().colors[0]
+                minColor: "#ffeda0",
+                maxColor: "#bd0026",
             },
 
             legend: {

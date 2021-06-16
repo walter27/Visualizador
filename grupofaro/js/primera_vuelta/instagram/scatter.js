@@ -17,7 +17,10 @@ getData().then(([categories, data]) => {
                 zoomType: 'xy'
             },
             title: {
-                text: 'Número de posts en Instagram, primera vuelta'
+                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+            },
+            subtitle: {
+                text: 'Relación entre el gasto estimado y el número de posts por partidos políticos en Instagram'
             },
             xAxis: {
                 title: {
@@ -44,6 +47,13 @@ getData().then(([categories, data]) => {
                 borderWidth: 1
             },
             plotOptions: {
+                series: {
+                    states: {
+                        inactive: {
+                            opacity: 1
+                        }
+                    }
+                },
                 scatter: {
                     marker: {
                         radius: 5,
@@ -63,7 +73,7 @@ getData().then(([categories, data]) => {
                     },
                     tooltip: {
                         headerFormat: '<b>{series.name}</b><br>',
-                        pointFormat: '{point.x} gastos estimados, {point.y}'
+                        pointFormat: '{point.x} post, gastos estimados ${point.y}'
                     }
                 }
             },

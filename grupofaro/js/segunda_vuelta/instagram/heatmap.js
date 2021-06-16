@@ -28,17 +28,24 @@ getData().then(([categories, data]) => {
 
 
             title: {
-                text: 'Posts semanales en Instagram, segunda vuelta'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)'
+            },
+            subtitle: {
+                text: 'Calendario semanal del número estimado de post pautados de todos los partidos políticos en Instagram'
             },
 
             xAxis: {
-                categories: categories[0].x_categories
+                categories: categories[0].x_categories,
+                title: {
+                    text: 'Fecha'
+                }
             },
 
             yAxis: {
                 categories: categories[1].y_categories,
-                title: null,
-                reversed: true
+                title: {
+                    text: 'Día de la semana'
+                }
             },
 
             accessibility: {
@@ -55,8 +62,8 @@ getData().then(([categories, data]) => {
 
             colorAxis: {
                 min: 0,
-                minColor: '#FFFFFF',
-                maxColor: Highcharts.getOptions().colors[0]
+                minColor: "#ffeda0",
+                maxColor: "#bd0026",
             },
 
             legend: {
@@ -76,7 +83,7 @@ getData().then(([categories, data]) => {
             },
 
             series: [{
-                name: 'Posts semanales en Instagram, segunda vuelta"',
+                name: 'Posts semanales en instagram, segunda vuelta"',
                 borderWidth: 1,
                 data: data[0].data,
                 dataLabels: {

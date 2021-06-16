@@ -20,27 +20,26 @@ getData().then(([categories, data]) => {
                 type: 'area'
             },
             title: {
-                text: 'Gasto estimado instagram primera vuelta'
+                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+            },
+            subtitle: {
+                text: 'Evolución temporal del gasto estimado por partido político en Instagram'
             },
             xAxis: {
                 categories: chartCategories,
                 tickmarkPlacement: 'on',
                 title: {
-                    enabled: false
+                    text: 'Fecha'
                 }
             },
             yAxis: {
                 title: {
-                    text: 'Gasto estimado'
-                },
-                labels: {
-                    formatter: function() {
-                        return this.value / 1000;
-                    }
+                    text: 'Gasto estimado ($)'
                 }
             },
             tooltip: {
                 split: true,
+                pointFormat: '{series.name} Gastos estimados ${point.y}'
             },
             plotOptions: {
                 area: {

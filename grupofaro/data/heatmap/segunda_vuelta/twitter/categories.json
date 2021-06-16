@@ -1,6 +1,5 @@
 [
 
-    {"x_categories":["Feb 14","Feb 21","Feb 28","Mar 7","Mar 14","Mar 21","Mar 28","Apr 4","Apr 11"]},
-    {"y_categories":["Sabado","Viernes","Jueves","Miercoles","Martes","Lunes","Domingo"]}
+    { "x_categories": ["Feb 14", "Feb 21", "Feb 28", "Mar 7", "Mar 14", "Mar 21", "Mar 28", "Apr 4", "Apr 11"] },
+    { "y_categories": ["Sábado", "Viernes", "Jueves", "Miércoles", "Martes", "Lunes", "Domingo"] }
 ]
-

@@ -1,28 +1,29 @@
 [{
-        "name": "Alianza CREO-PSC"
-    },{
-        "name": "Izquierda Democratica"
-    }, {
-        "name": "Alianza UNES"
-    }, {
-        "name": "Movimiento Pachakutik"
-    }, {
-        "name": "Alianza Pais"
-    }, {
-        "name": "Alianza Honestidad"
-    }, {
-        "name": "Suma"
-    }, {
-        "name": "Movimiento Democracia SI"
-    }, {
-        "name": "Partido Sociedad Patriotica"
-    }, {
-        "name": "Fuerza EC"
-    }, {
-        "name": "Movimiento Ecuatoriano Unido"
-    }, {
-        "name": "Movimiento Amigo"
-    }, {
-        "name": "Movimiento Construye"
-    }
-]
+    "name": "Alianza CREO-PSC"
+}, {
+    "name": "Izquierda Democratica"
+}, {
+    "name": "Alianza UNES"
+}, {
+    "name": "Movimiento Pachakutik"
+}, {
+    "name": "Partido Avanza"
+}, {
+    "name": "Alianza Pais"
+}, {
+    "name": "Alianza Honestidad"
+}, {
+    "name": "Suma"
+}, {
+    "name": "Movimiento Democracia SI"
+}, {
+    "name": "Partido Sociedad Patriotica"
+}, {
+    "name": "Fuerza EC"
+}, {
+    "name": "Movimiento Ecuatoriano Unido"
+}, {
+    "name": "Movimiento Amigo"
+}, {
+    "name": "Movimiento Construye"
+}]
