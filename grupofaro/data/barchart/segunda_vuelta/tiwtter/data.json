@@ -1,4 +1,9 @@
 [{
-    "name": "Gasto estimado en twitter, segunda vuelta",
-    "data": [1202090, 936254]
+    "name": "Alianza UNES",
+    "y": 1202090,
+    "color": "rgba(247, 163, 92, 0.75)"
+}, {
+    "name": "Alianza CREO-PSC",
+    "y": 936254,
+    "color": "rgba(124, 181, 236, 0.75)"
 }]

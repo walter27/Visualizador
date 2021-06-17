@@ -8,6 +8,7 @@ async function getData() {
     return [categories, data];
 }
 
+var colors = ['#3B97B2', '#67BC42', '#FF56DE', '#E6D605', '#BC36FE', '#000'];
 
 getData().then(([categories, data]) => {
 
@@ -17,8 +18,9 @@ getData().then(([categories, data]) => {
     }
     $(function() {
         $('#container').highcharts({
+
             chart: {
-                type: 'bar'
+                type: 'bar',
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (2da vuelta)'
@@ -46,6 +48,10 @@ getData().then(([categories, data]) => {
                     stacking: 'normal'
                 }
             },
+            colors: [
+                'blue',
+                'red',
+            ],
             tooltip: {
                 formatter: function() {
                     return '<b>' + this.point.category + '</b> <br><b>' +
@@ -95,7 +101,11 @@ getData().then(([categories, data]) => {
                     }
                 }
             },
-            series: data
+            series: [{
+                name: '',
+                colorByPoint: true,
+                data: data
+            }]
         })
     })
 }).catch(error => {

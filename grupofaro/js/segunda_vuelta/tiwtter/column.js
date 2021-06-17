@@ -18,7 +18,7 @@ getData().then(([categories, data]) => {
     $(function() {
         $('#container').highcharts({
             chart: {
-                type: 'bar'
+                type: 'bar',
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (2da vuelta)'
@@ -96,7 +96,11 @@ getData().then(([categories, data]) => {
                     }
                 }
             },
-            series: data
+            series: [{
+                name: '',
+                colorByPoint: true,
+                data: data
+            }]
         })
     })
 }).catch(error => {

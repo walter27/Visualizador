@@ -17,7 +17,8 @@ getData().then(([categories, data]) => {
         $('#container').highcharts({
 
             chart: {
-                type: 'area'
+                type: 'area',
+                margin: [100, 100, 100, 100]
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)'
@@ -53,7 +54,16 @@ getData().then(([categories, data]) => {
                 }
             },
             exporting: {
-
+                chartOptions: {
+                    legend: {
+                        enabled: false
+                    },
+                    series: {
+                        dataLabels: {
+                            enabled: true,
+                        }
+                    }
+                },
                 buttons: {
                     contextButton: {
                         enabled: true,

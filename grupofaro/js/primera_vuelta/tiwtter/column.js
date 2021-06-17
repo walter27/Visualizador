@@ -18,7 +18,7 @@ getData().then(([categories, data]) => {
     $(function() {
         $('#container').highcharts({
             chart: {
-                type: 'bar'
+                type: 'bar',
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)'

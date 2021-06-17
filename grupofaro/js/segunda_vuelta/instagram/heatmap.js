@@ -21,9 +21,7 @@ getData().then(([categories, data]) => {
         $('#container').highcharts({
             chart: {
                 type: 'heatmap',
-                marginTop: 40,
-                marginBottom: 80,
-                plotBorderWidth: 1
+                margin: [100, 100, 100, 100]
             },
 
 

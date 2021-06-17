@@ -14,7 +14,6 @@ getData().then(([categories, data]) => {
         $('#container').highcharts({
             chart: {
                 type: 'scatter',
-                zoomType: 'xy'
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)'
