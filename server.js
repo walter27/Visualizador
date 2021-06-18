@@ -65,8 +65,7 @@ app.get('/stacked/segunda/instagram', function(req, res) {
 app.get('/bar/primera/twitter-instagram', function(req, res) {
     res.sendFile(path.join(__dirname + '/grupofaro/public/bar/primera_vuelta/index.html'));
 });
-
-app.get('/bar/primera/twitter-instagram', function(req, res) {
+app.get('/bar/segunda/twitter-instagram', function(req, res) {
     res.sendFile(path.join(__dirname + '/grupofaro/public/bar/segunda_vuelta/index.html'));
 });
 
