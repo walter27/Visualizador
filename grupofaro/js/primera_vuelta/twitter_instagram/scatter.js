@@ -46,6 +46,13 @@ getData().then(([categories, data]) => {
                 borderWidth: 1
             },
             plotOptions: {
+                series: {
+                    states: {
+                        inactive: {
+                            opacity: 1
+                        }
+                    }
+                },
                 scatter: {
                     marker: {
                         radius: 8,
