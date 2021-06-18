@@ -55,7 +55,11 @@ getData().then(([categories, data]) => {
                 }
             },
             exporting: {
-
+                chartOptions: {
+                    legend: {
+                        enabled: false
+                    }
+                },
                 buttons: {
                     contextButton: {
                         enabled: true,
