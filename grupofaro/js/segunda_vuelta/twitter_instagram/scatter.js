@@ -1,7 +1,7 @@
 async function getData() {
     const [categoriesResponse, dataResponse] = await Promise.all([
-        fetch('../../../data/scatter/primera_vuelta/twitter/categories.json'),
-        fetch('../../../data/scatter/primera_vuelta/twitter/data.json')
+        fetch('../../../data/scater/segunda_vuelta/categories.json'),
+        fetch('../../../data/scater/segunda_vuelta/data.json')
     ]);
     const categories = await categoriesResponse.json();
     const data = await dataResponse.json();
@@ -16,10 +16,10 @@ getData().then(([categories, data]) => {
                 type: 'scatter',
             },
             title: {
-                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)'
             },
             subtitle: {
-                text: 'Relación entre el gasto estimado y el número de posts por partidos políticos en Twitter'
+                text: 'Relación entre el número de votos válidos obtenidos por partido politico y el gasto estimado en Twitter e Instagram'
             },
             xAxis: {
                 title: {
@@ -37,9 +37,9 @@ getData().then(([categories, data]) => {
             },
             legend: {
                 layout: 'vertical',
-                align: 'left',
+                align: 'right',
                 verticalAlign: 'top',
-                x: 100,
+                x: 0,
                 y: 70,
                 floating: true,
                 backgroundColor: Highcharts.defaultOptions.chart.backgroundColor,

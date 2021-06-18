@@ -1,72 +1,58 @@
 async function getData() {
     const [categoriesResponse, dataResponse] = await Promise.all([
-        fetch('../../../data/scatter/primera_vuelta/twitter/categories.json'),
-        fetch('../../../data/scatter/primera_vuelta/twitter/data.json')
+        fetch('../../../data/bar/segunda_vuelta/categories.json'),
+        fetch('../../../data/bar/segunda_vuelta/data.json')
     ]);
     const categories = await categoriesResponse.json();
     const data = await dataResponse.json();
     return [categories, data];
 }
 
+
 getData().then(([categories, data]) => {
 
+    let chartCategories = [];
+    for (let i = 0; i < categories.length; i++) {
+        chartCategories.push(categories[i].name);
+    }
     $(function() {
         $('#container').highcharts({
             chart: {
-                type: 'scatter',
+                type: 'column'
             },
             title: {
-                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)'
             },
             subtitle: {
-                text: 'Relación entre el gasto estimado y el número de posts por partidos políticos en Twitter'
+                text: 'Porcentaje del gasto estimado en Twitter e Instagram en relación al limite offical del gasto electoral por partido político'
             },
             xAxis: {
-                title: {
-                    enabled: true,
-                    text: categories[0].xAxis
-                },
-                startOnTick: true,
-                endOnTick: true,
-                showLastLabel: true
+                categories: chartCategories
             },
             yAxis: {
+                min: 0,
                 title: {
-                    text: categories[1].yAxis
+                    text: 'Límite del gasto electoral (%)'
                 }
             },
             legend: {
-                layout: 'vertical',
-                align: 'left',
+                align: 'right',
+                x: -30,
                 verticalAlign: 'top',
-                x: 100,
-                y: 70,
+                y: 25,
                 floating: true,
-                backgroundColor: Highcharts.defaultOptions.chart.backgroundColor,
-                borderWidth: 1
+                backgroundColor: Highcharts.defaultOptions.legend.backgroundColor || 'white',
+                borderColor: '#CCC',
+                borderWidth: 1,
+                shadow: false
+            },
+            tooltip: {
+                headerFormat: '<b>{point.x}</b><br/>',
+                pointFormat: '{series.name}: {point.y} %'
             },
             plotOptions: {
-                scatter: {
-                    marker: {
-                        radius: 8,
-                        states: {
-                            hover: {
-                                enabled: true,
-                                lineColor: 'rgb(100,100,100)'
-                            }
-                        }
-                    },
-                    states: {
-                        hover: {
-                            marker: {
-                                enabled: false
-                            }
-                        }
-                    },
-                    tooltip: {
-                        headerFormat: '<b>{series.name}</b><br>',
-                        pointFormat: '{point.x} post, gastos estimados ${point.y}'
-                    }
+                column: {
+                    stacking: 'normal'
                 }
             },
             exporting: {

@@ -1,7 +1,7 @@
 async function getData() {
     const [categoriesResponse, dataResponse] = await Promise.all([
-        fetch('../../../data/scatter/primera_vuelta/twitter/categories.json'),
-        fetch('../../../data/scatter/primera_vuelta/twitter/data.json')
+        fetch('../../../data/scater/primera_vuelta/categories.json'),
+        fetch('../../../data/scater/primera_vuelta/data.json')
     ]);
     const categories = await categoriesResponse.json();
     const data = await dataResponse.json();
@@ -19,7 +19,7 @@ getData().then(([categories, data]) => {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)'
             },
             subtitle: {
-                text: 'Relación entre el gasto estimado y el número de posts por partidos políticos en Twitter'
+                text: 'Relación entre el número de votos válidos obtenidos por partido politico y el gasto estimado en Twitter e Instagram'
             },
             xAxis: {
                 title: {
