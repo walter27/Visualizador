@@ -57,11 +57,6 @@ getData().then(([categories, data]) => {
                 chartOptions: {
                     legend: {
                         enabled: false
-                    },
-                    series: {
-                        dataLabels: {
-                            enabled: true,
-                        }
                     }
                 },
                 buttons: {
