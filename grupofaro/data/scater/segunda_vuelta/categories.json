@@ -1,6 +1,5 @@
 [
 
-    {"xAxis":"Gasto estimado en Twitter e Instagram ($)"},
-    {"yAxis":"Numero de votos obtenidos"}
+    { "xAxis": "Gasto estimado en Twitter e Instagram ($)" },
+    { "yAxis": "Número de votos obtenidos" }
 ]
-

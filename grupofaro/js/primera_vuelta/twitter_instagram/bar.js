@@ -24,7 +24,7 @@ getData().then(([categories, data]) => {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)'
             },
             subtitle: {
-                text: 'Porcentaje del gasto estimado en Twitter e Instagram en relación al limite offical del gasto electoral por partido político'
+                text: 'Porcentaje del gasto estimado en Twitter e Instagram en relación al limite oficial del gasto electoral por partido político'
             },
             xAxis: {
                 categories: chartCategories
@@ -39,7 +39,7 @@ getData().then(([categories, data]) => {
                 align: 'right',
                 x: -30,
                 verticalAlign: 'top',
-                y: 25,
+                y: 80,
                 floating: true,
                 backgroundColor: Highcharts.defaultOptions.legend.backgroundColor || 'white',
                 borderColor: '#CCC',

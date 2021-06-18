@@ -94,7 +94,16 @@ getData().then(([categories, data]) => {
                 }
             }],
             exporting: {
-
+                chartOptions: {
+                    legend: {
+                        align: 'right',
+                        layout: 'vertical',
+                        marginTop: 10,
+                        verticalAlign: 'top',
+                        y: 80,
+                        symbolHeight: 200
+                    }
+                },
                 buttons: {
                     contextButton: {
                         enabled: true,
