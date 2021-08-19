@@ -102,7 +102,7 @@ getData().then(([categories, data]) => {
             responsive: {
                 rules: [{
                     condition: {
-                        maxWidth: 500
+                        maxWidth: 700
                     },
                     chartOptions: {
                         xAxis: {
