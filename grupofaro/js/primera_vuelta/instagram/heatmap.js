@@ -77,7 +77,7 @@ getData().then(([categories, data]) => {
                 margin: 0,
                 verticalAlign: 'top',
                 y: 80,
-                symbolHeight: 400
+                symbolHeight: 300
             },
 
             tooltip: {
