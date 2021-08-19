@@ -18,7 +18,10 @@ getData().then(([categories, data]) => {
 
             chart: {
                 type: 'area',
-                margin: [100, 100, 100, 100]
+                margin: [100, 100, 100, 100],
+                style: {
+                    fontFamily: 'century gothic'
+                }
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (2da vuelta)'
@@ -96,7 +99,22 @@ getData().then(([categories, data]) => {
                     }
                 }
             },
-            series: data
+            series: data,
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 500
+                    },
+                    chartOptions: {
+                        legend: {
+                            enabled: false
+                        },
+                        title: {
+                            text: null
+                        },
+                    }
+                }]
+            }
         })
     })
 })

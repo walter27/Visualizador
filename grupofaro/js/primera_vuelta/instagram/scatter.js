@@ -14,7 +14,10 @@ getData().then(([categories, data]) => {
         $('#container').highcharts({
             chart: {
                 type: 'scatter',
-                zoomType: 'xy'
+                zoomType: 'xy',
+                style: {
+                    fontFamily: 'century gothic'
+                }
             },
             title: {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)'
@@ -120,7 +123,22 @@ getData().then(([categories, data]) => {
                     }
                 }
             },
-            series: data
+            series: data,
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 500
+                    },
+                    chartOptions: {
+                        legend: {
+                            enabled: false
+                        },
+                        title: {
+                            text: null
+                        },
+                    }
+                }]
+            }
         })
     })
 }).catch(error => {

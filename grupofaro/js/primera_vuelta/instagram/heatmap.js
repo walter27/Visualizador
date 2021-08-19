@@ -25,7 +25,10 @@ getData().then(([categories, data]) => {
         $('#container').highcharts({
             chart: {
                 type: 'heatmap',
-                margin: [100, 100, 100, 100]
+                margin: [100, 100, 100, 100],
+                style: {
+                    fontFamily: 'century gothic'
+                }
             },
 
 
@@ -73,8 +76,8 @@ getData().then(([categories, data]) => {
                 layout: 'vertical',
                 margin: 0,
                 verticalAlign: 'top',
-                y: 25,
-                symbolHeight: 520
+                y: 80,
+                symbolHeight: 460
             },
 
             tooltip: {
@@ -153,7 +156,14 @@ getData().then(([categories, data]) => {
                                     return this.value.charAt(0);
                                 }
                             }
-                        }
+                        },
+                        title: {
+                            text: null
+                        },
+                        legend: {
+                            y: 82,
+                            symbolHeight: 370
+                        },
                     }
                 }]
             }
