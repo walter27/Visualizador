@@ -162,7 +162,7 @@ getData().then(([categories, data]) => {
                         },
                         legend: {
                             y: 82,
-                            symbolHeight: 200
+                            symbolHeight: 300
                         },
                     }
                 }]
