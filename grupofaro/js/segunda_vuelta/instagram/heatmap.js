@@ -73,7 +73,7 @@ getData().then(([categories, data]) => {
                 margin: 0,
                 verticalAlign: 'top',
                 y: 80,
-                symbolHeight: 460
+                symbolHeight: 300
             },
 
             tooltip: {
@@ -158,7 +158,7 @@ getData().then(([categories, data]) => {
                         },
                         legend: {
                             y: 82,
-                            symbolHeight: 370
+                            symbolHeight: 300
                         },
                     }
                 }]
