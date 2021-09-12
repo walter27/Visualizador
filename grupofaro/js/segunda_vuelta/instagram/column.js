@@ -55,7 +55,7 @@ getData().then(([categories, data]) => {
                 min: 0,
                 title: {
                     text: 'Gasto estimado ($)',
-                    vstyle: {
+                    style: {
                         fontWeight: 'bold'
                     }
                 },

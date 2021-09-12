@@ -56,6 +56,11 @@ getData().then(([categories, data]) => {
                     style: {
                         fontWeight: 'bold'
                     }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
             legend: {
