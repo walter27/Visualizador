@@ -19,15 +19,29 @@ getData().then(([categories, data]) => {
                 }
             },
             title: {
-                text: 'Elecciones presidenciales 2021 (2da vuelta)'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             subtitle: {
-                text: 'Relación entre el número de votos válidos obtenidos por partido politico y el gasto estimado en Twitter e Instagram'
+                text: 'Relación entre el número de votos válidos obtenidos por partido politico y el gasto estimado en Twitter e Instagram',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             xAxis: {
                 title: {
                     enabled: true,
-                    text: categories[0].xAxis
+                    text: categories[0].xAxis,
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 },
                 startOnTick: true,
                 endOnTick: true,
@@ -35,7 +49,15 @@ getData().then(([categories, data]) => {
             },
             yAxis: {
                 title: {
-                    text: categories[1].yAxis
+                    text: categories[1].yAxis,
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
             legend: {

@@ -19,15 +19,29 @@ getData().then(([categories, data]) => {
                 }
             },
             title: {
-                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+                text: 'Elecciones presidenciales 2021 (1era vuelta)',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             subtitle: {
-                text: 'Relación entre el gasto estimado y el número de posts por partidos políticos en Twitter'
+                text: 'Relación entre el gasto estimado y el número de posts por partidos políticos en Twitter',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             xAxis: {
                 title: {
                     enabled: true,
-                    text: categories[0].xAxis
+                    text: categories[0].xAxis,
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 },
                 startOnTick: true,
                 endOnTick: true,
@@ -35,7 +49,15 @@ getData().then(([categories, data]) => {
             },
             yAxis: {
                 title: {
-                    text: categories[1].yAxis
+                    text: categories[1].yAxis,
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
             legend: {

@@ -1,10 +1,11 @@
 [{
         "name": "Twitter",
+        "color": "#BEE1C6",
         "data": [57.35, 44.67]
     },
     {
         "name": "Instagram",
-        "color": "rgba(202,178,214,1)",
+        "color": "#596676",
         "data": [10.91, 10.40]
     }
 ]

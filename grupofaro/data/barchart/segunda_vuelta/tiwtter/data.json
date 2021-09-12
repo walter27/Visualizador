@@ -1,9 +1,9 @@
 [{
     "name": "Alianza UNES",
     "y": 1202090,
-    "color": "rgba(247, 163, 92, 0.75)"
+    "color": "#F38D76"
 }, {
     "name": "Alianza CREO-PSC",
     "y": 936254,
-    "color": "rgba(124, 181, 236, 0.75)"
+    "color": "#097883"
 }]

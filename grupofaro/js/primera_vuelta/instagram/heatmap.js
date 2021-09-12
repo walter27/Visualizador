@@ -33,23 +33,45 @@ getData().then(([categories, data]) => {
 
 
             title: {
-                text: 'Elecciones presidenciales 2021 (1era vuelta)'
+                text: 'Elecciones presidenciales 2021 (1era vuelta)',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             subtitle: {
-                text: 'Calendario semanal del número estimado de post pautados de todos los partidos políticos en Instagram'
+                text: 'Calendario semanal del número estimado de post pautados de todos los partidos políticos en Instagram',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
 
             xAxis: {
                 categories: categories[0].x_categories,
                 title: {
-                    text: 'Fecha'
+                    text: 'Fecha',
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
 
             yAxis: {
                 categories: categories[1].y_categories,
                 title: {
-                    text: 'Día de la semana'
+                    text: 'Día de la semana',
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
 

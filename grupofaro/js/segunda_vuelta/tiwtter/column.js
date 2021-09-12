@@ -24,21 +24,38 @@ getData().then(([categories, data]) => {
                 }
             },
             title: {
-                text: 'Elecciones presidenciales 2021 (2da vuelta)'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             subtitle: {
-                text: 'Gasto estimado electoral por partido político en Twitter'
+                text: 'Gasto electoral estimado po organización política en Twitter',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             xAxis: {
                 categories: chartCategories,
                 title: {
-                    text: 'Partido político'
+                    text: 'Partido político',
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Gasto estimado ($)'
+                    text: 'Gasto estimado ($)',
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
             legend: {

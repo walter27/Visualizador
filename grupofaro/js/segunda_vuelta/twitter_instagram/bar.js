@@ -24,18 +24,37 @@ getData().then(([categories, data]) => {
                 }
             },
             title: {
-                text: 'Elecciones presidenciales 2021 (2da vuelta)'
+                text: 'Elecciones presidenciales 2021 (2da vuelta)',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             subtitle: {
-                text: 'Porcentaje del gasto estimado en Twitter e Instagram en relación al limite oficial del gasto electoral por partido político'
+                text: 'Porcentaje del gasto estimado en Twitter e Instagram en relación al limite oficial del gasto electoral por partido político',
+                style: {
+                    fontWeight: 'bold'
+                }
             },
             xAxis: {
-                categories: chartCategories
+                categories: chartCategories,
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                }
             },
             yAxis: {
                 min: 0,
                 title: {
-                    text: 'Límite del gasto electoral (%)'
+                    text: 'Límite del gasto electoral (%)',
+                    style: {
+                        fontWeight: 'bold'
+                    }
+                },
+                labels: {
+                    style: {
+                        fontWeight: 'bold'
+                    }
                 }
             },
             legend: {
