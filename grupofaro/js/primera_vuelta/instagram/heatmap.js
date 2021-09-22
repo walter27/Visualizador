@@ -30,8 +30,9 @@ getData().then(([categories, data]) => {
                     fontFamily: 'century gothic'
                 }
             },
-
-
+            credits: {
+                enabled: false
+            },
             title: {
                 text: 'Elecciones presidenciales 2021 (1era vuelta)',
                 style: {
